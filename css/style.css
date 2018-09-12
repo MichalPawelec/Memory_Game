@@ -1,0 +1,41 @@
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-board {
+    margin:7vh auto 3vh auto;
+    position: relative;
+    width: 800px;
+    height: 640px;
+    border: 2px solid white;
+}
+
+.game-tile {
+    position: absolute;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    background: #619af4 url('../images/pokeball.png');
+}
+
+.game-tile:hover {
+    background-color: #0643a3;
+}
+
+.game-score {
+    text-align: center;
+    font-size: 26px;
+    position: absolute;
+    top: 10px;
+}
+
+button {
+    display: inline-block;
+    font-size: 3vh;
+    width: 14vw;
+    position: absolute;
+    bottom: 20px;
+}
